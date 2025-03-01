@@ -1,7 +1,7 @@
 import { RequestHandler } from "express";
 import { appAssert } from "../utils/appAssert";
 import { UNAUTHORIZED } from "../config/http.config";
-import { AppErrorCode } from "../enm/appErrorCode.enum";
+import { AppErrorCode } from "../enum/appErrorCode.enum";
 import { AccessTokenPayload, verifyToken } from "../utils/jwt";
 import mongoose from "mongoose";
 

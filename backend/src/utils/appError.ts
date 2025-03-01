@@ -1,5 +1,5 @@
 import { HttpStatusCode } from "../config/http.config";
-import { AppErrorCode } from "../enm/appErrorCode.enum";
+import { AppErrorCode } from "../enum/appErrorCode.enum";
 
 export class AppError extends Error {
   constructor(
